@@ -1,0 +1,36 @@
+/* Font Awesome 6 字体修复 */
+.fa,
+.fas,
+.far,
+.fal,
+.fab {
+  font-family: "Font Awesome 6 Free" !important;
+}
+
+.fa,
+.fas {
+  font-weight: 900 !important;
+}
+
+.far {
+  font-weight: 400 !important;
+}
+
+.fab {
+  font-family: "Font Awesome 6 Brands" !important;
+  font-weight: 400 !important;
+}
+
+/* 确保图标正确显示 */
+.fa-solid::before,
+.fa-regular::before,
+.fa-brands::before {
+  font-family: inherit !important;
+}
+
+.dropdown-toggle::after,
+.dropup .dropdown-toggle::after,
+.dropright .dropdown-toggle::after,
+.dropleft .dropdown-toggle::after {
+    font-family: "Font Awesome 5 Free", "Font Awesome 5 Free" !important;
+} 
